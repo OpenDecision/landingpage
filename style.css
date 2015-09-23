@@ -1,0 +1,71 @@
+html {
+  min-height: 100%;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+  background: #f8f8f8;
+}
+.landing_page {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+.landing_page img {
+  margin-top: 100px;
+}
+.landing_text {
+  color: black;
+  font-size: 40px;
+  margin-top: 100px;
+}
+.landing_text a:hover {
+  text-decoration: underline;
+}
+.landing_text a {
+  padding: 0 5px;
+  text-decoration: none;
+}
+.landing_text p {
+  margin: 0 20px;
+}
+.landing_page button {
+  margin-top: 100px;
+  color: white;
+  width: 565px;
+  height: 85px;
+  font-size: 43px;
+  font-weight: 300;
+  background-color: #ff7256;
+  border: none;
+  cursor: pointer;
+}
+#od_logo {
+  max-width: 100%;
+  height: auto !important;
+}
+.login_text {
+  font-size: 19px;
+  margin-top: 30px;
+}
+.login_text a {
+  color: #ff7256;
+  text-decoration: none;
+}
+.login_text a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 880px) {
+  .landing_page img {
+    margin-top: 50px;
+  }
+  .landing_text {
+    margin-top: 50px;
+    font-size: 35px;
+  }
+  .landing_page button {
+    margin-top: 50px;
+    width: 340px;
+    height: 65px;
+    font-size: 35px;
+  }
+}
